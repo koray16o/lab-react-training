@@ -2,17 +2,6 @@
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
 .App-header {
   background-color: #282c34;
   min-height: 100vh;
@@ -28,11 +17,30 @@
   color: #61dafb;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.dataBox {
+  border: 10px black;
+}
+
+.DriverCard {
+  display: flex;
+  background-color: blue;
+  color: white;
+  justify-content: center;
+
+  width: 800px;
+  height: 200px;
+  margin-top: 10px;
+  margin-left: 350px;
+}
+
+.DriverImage img {
+  object-fit: cover;
+  border-radius: 50%;
+  width: 200px;
+  height: 200px;
+}
+
+.NumbersTable {
+  display: flex;
+  width: 200px;
 }
